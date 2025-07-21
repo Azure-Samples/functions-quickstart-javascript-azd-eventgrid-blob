@@ -90,7 +90,16 @@ Create two containers in the local storage emulator called `processed-pdf` and `
    + Right click on `Blob Containers` and select `Create Blob Container`
    + Name the containers `processed-pdf` and `unprocessed-pdf`
 
-3. Upload the PDF files from the `data` folder to the `unprocessed-pdf` container.
+3. Download the sample PDF files from the reference repository and upload them to the `unprocessed-pdf` container.
+
+   You can download the test PDF files from the reference repository:
+   ```bash
+   curl -o data/Benefit_Options.pdf https://raw.githubusercontent.com/Azure-Samples/functions-quickstart-typescript-azd-eventgrid-blob/main/data/Benefit_Options.pdf
+   curl -o data/PerksPlus.pdf https://raw.githubusercontent.com/Azure-Samples/functions-quickstart-typescript-azd-eventgrid-blob/main/data/PerksPlus.pdf
+   curl -o data/employee_handbook.pdf https://raw.githubusercontent.com/Azure-Samples/functions-quickstart-typescript-azd-eventgrid-blob/main/data/employee_handbook.pdf
+   ```
+
+   Then upload them to the containers:
 
    **Using Azure Storage Explorer:**
     + Open Azure Storage Explorer.
