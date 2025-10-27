@@ -1,0 +1,17 @@
+{
+  "name": "functions-quickstart-javascript-azd-eventgrid-blob",
+  "version": "1.0.0",
+  "description": "Azure Functions JavaScript Event Grid Blob Trigger sample using Azure Developer CLI",
+  "main": "functions/*.js",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@azure/functions": "4.7.4-preview",
+    "@azure/functions-extensions-blob": "^0.2.0-preview"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

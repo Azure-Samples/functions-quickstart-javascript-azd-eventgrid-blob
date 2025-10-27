@@ -1,4 +1,4 @@
-## [project-title] Changelog
+## Azure Functions JavaScript Event Grid Blob Trigger Sample Changelog
 
 <a name="x.y.z"></a>
 # x.y.z (yyyy-mm-dd)
