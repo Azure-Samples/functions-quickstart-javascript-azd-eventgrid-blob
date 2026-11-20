@@ -1,0 +1,11 @@
+# This descriptor drives template package creation in the packaging pipeline.
+schemaVersion: 1
+identity: Azure.Functions.Templates.EventGridBlobJavaScript
+description: Create a JavaScript Azure Functions app for Event Grid Blob Trigger, with Bicep infrastructure for deployment
+  using azd.
+projects:
+- name: Azure Functions Event Grid Blob Trigger (JavaScript)
+  shortName: functions-quickstart-javascript-eventgrid-blob
+  root: .
+  stack: node
+  language: JavaScript
